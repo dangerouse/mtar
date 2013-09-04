@@ -1,0 +1,19 @@
+################################################################################
+# thread pooling settings
+################################################################################
+
+# Enable reuse of native threads via a thread pool.
+# Options: [true, false], Default: false.
+thread.pool.enabled=false
+
+# The minimum number of threads to keep alive in the pool.
+# Options: [Integer], Default: 0.
+thread.pool.min=5
+
+# The maximum number of threads to allow in the pool.
+# Options: [Integer], Default: 2147483647.
+thread.pool.max=2147483647
+
+# The maximum number of seconds to keep alive an idle thread.
+# Options: [Integer], Default: 60.
+thread.pool.ttl=60

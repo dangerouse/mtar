@@ -16,7 +16,7 @@ puts "\nTesting with #{THREADS} threads #{"not " if !CLOSE}using `connection.clo
 
 conn = ActiveRecord::Base.establish_connection({
   :adapter => 'mysql',
-  :database => 'grpn_ubergateway',
+  :database => 'mtar-test-db',
   :pool => POOL,
   :wait_timeout => WAIT,
 })

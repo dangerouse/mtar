@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
-#ruby=jruby-1.7.2
-# ruby=1.9.2-p290
 
-gem 'activerecord', '~> 3.2.13'
+ruby '~>2.5.3', engine: 'jruby', engine_version: '~>9.2.6.0'
+
+gem 'activerecord'
 gem 'activerecord-jdbcmysql-adapter', :platform => :jruby
 
 platforms :mri do
